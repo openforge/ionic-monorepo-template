@@ -1,47 +1,47 @@
-# OpenforgeAcademy
+# OpenForge Ionic Monorepo Example
 
-This project was generated using [Nx](https://nx.dev).
+This is a template project for all Ionic + Angular Monorepos.   
+It was generated using a combination of [Nx](https://nx.dev), Ionic [Thanks to Eric Jeker's Post on Ionic + Nrwl](https://medium.com/@eric.jeker/how-to-integrate-ionic-in-nrwl-nx-3493fcb7e85e), [StyleLint](https://stylelint.io/), and [ESLint](https://eslint.org/).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+# Instructions
 
-🔎 **Smart, Extensible Build Framework**
+1. Clone the repository using 'Use template' (and don't forget to give us a Star / Follow on Github, please!)
+2. Search + Replace all instances of 'example-app-e2e' with your app name (important to do this first)
+3. Search + Replace all instances of 'example-app' with your app name
+4. Change the folder names for example-app and example-app-e2e to what you named for steps #1 and #2
+5. Search + Replace all instances of 'openforge-ionic-monorepo-example' with your project name
+6. Search + Replace 'company-name' with your company name.  This is the NX project scope that allows you to import libraries using @company-name
 
-## Adding capabilities to your workspace
+That's it for the renaming!  Now to test...
 
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
+7. npm install
+8. npx nx run example-app:serve (where example-app is the name you replaced with above)
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+You should now load your example app!
 
-Below are our core plugins:
+# Important - Utilizing this Repo
 
--   [React](https://reactjs.org)
-    -   `npm install --save-dev @nrwl/react`
--   Web (no framework frontends)
-    -   `npm install --save-dev @nrwl/web`
--   [Angular](https://angular.io)
-    -   `npm install --save-dev @nrwl/angular`
--   [Nest](https://nestjs.com)
-    -   `npm install --save-dev @nrwl/nest`
--   [Express](https://expressjs.com)
-    -   `npm install --save-dev @nrwl/express`
--   [Node](https://nodejs.org)
-    -   `npm install --save-dev @nrwl/node`
+Most of the commands to generate projects/capabilities/apps are default to NX, Ionic, or Angular (in that order), so we will NOT include their specific instructions since as the packages update so will the documentation.  
 
-There are also many [community plugins](https://nx.dev/community) you could add.
+With that said, there are some special things to keep in mind...
 
-## Generating a Project
+## Generating a Project - Additional Step
 
-After any project is created by NX, we must add StyleLint
+After any project is created by NX, we MUST add StyleLint
 
 nx g nx-stylelint:configuration --project <projectName>
 
 ## Generate an application
 
-Run `nx g @nrwl/react:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
+The normal NX command to generate an app is `nx g @nrwl/react:app my-app` ; however, there are some special steps to generate an Ionic App.  These are defined well in [Eric Jeker's post here](https://medium.com/@eric.jeker/how-to-integrate-ionic-in-nrwl-nx-3493fcb7e85e)
 
 When using Nx, you can create multiple applications and libraries in the same workspace.
+
+# NX Original Instructions
+
+## Further help
+
+Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ## Generate a library
 
@@ -79,18 +79,3 @@ Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
 Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
-## Further help
-
-Visit the [Nx Documentation](https://nx.dev) to learn more.
-
-## ☁ Nx Cloud
-
-### Distributed Computation Caching & Distributed Task Execution
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.

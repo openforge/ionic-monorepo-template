@@ -1,5 +1,5 @@
 {
-    "npmScope": "monorepo-template",
+    "npmScope": "company-name",
     "affected": {
         "defaultBase": "develop"
     },
