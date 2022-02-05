@@ -2,7 +2,7 @@
     "projectType": "application",
     "root": "apps/example-app",
     "sourceRoot": "apps/example-app/src",
-    "prefix": "openforge-academy",
+    "prefix": "openforge-ionic-monorepo-example",
     "targets": {
         "build": {
             "executor": "@angular-devkit/build-angular:browser",
@@ -14,8 +14,8 @@
                 "polyfills": "apps/example-app/src/polyfills.ts",
                 "tsConfig": "apps/example-app/tsconfig.app.json",
                 "inlineStyleLanguage": "scss",
-                "assets": ["apps/example-app/src/favicon.ico", "apps/example-app/src/assets"],
-                "styles": ["apps/example-app/src/styles.scss"],
+                "assets": ["apps/example-app/src/assets"],
+                "styles": ["apps/example-app/src/global.scss"],
                 "scripts": []
             },
             "configurations": {
