@@ -10,9 +10,9 @@
             "@typescript-eslint/parser": [".ts", ".tsx"]
         },
         "import/resolver": {
-          "node": {
-            "extensions": [".js", ".jsx", ".ts", ".tsx"]
-          }
+            "node": {
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
         }
     },
     "ignorePatterns": ["node_modules/**"],
@@ -34,30 +34,30 @@
                 "plugin:@angular-eslint/recommended--extra"
             ],
             "rules": {
-                "@typescript-eslint/no-unsafe-member-access": "off",
-                "@typescript-eslint/no-unsafe-assignment": "off",
+                "@typescript-eslint/no-unsafe-member-access": "error",
+                "@typescript-eslint/no-unsafe-assignment": "error",
                 "@typescript-eslint/no-unsafe-return": "error",
-                "@typescript-eslint/explicit-module-boundary-types": "off",
-                "@typescript-eslint/no-unnecessary-type-assertion": "off",
-                "@typescript-eslint/no-unsafe-call": "off",
-                "@typescript-eslint/no-var-requires": "off",
-                "@typescript-eslint/no-explicit-any": "off",
-                "import/no-unresolved": "off",
+                "@typescript-eslint/explicit-module-boundary-types": "error",
+                "@typescript-eslint/no-unnecessary-type-assertion": "error",
+                "@typescript-eslint/no-unsafe-call": "error",
+                "@typescript-eslint/no-var-requires": "error",
+                "@typescript-eslint/no-explicit-any": "error",
+                "import/no-unresolved": "error",
                 "@typescript-eslint/no-misused-promises": [
-                    "warn",
+                    "error",
                     {
                         "checksVoidReturn": true,
                         "checksConditionals": true
                     }
                 ],
-                "@typescript-eslint/unbound-method": "off",
+                "@typescript-eslint/unbound-method": "error",
                 "@typescript-eslint/restrict-plus-operands": [
                     "error",
                     {
                         "checkCompoundAssignments": true
                     }
                 ],
-                "@typescript-eslint/restrict-template-expressions": "off",
+                "@typescript-eslint/restrict-template-expressions": "error",
                 "@typescript-eslint/no-floating-promises": [
                     "error",
                     {
@@ -65,13 +65,16 @@
                         "ignoreIIFE": true
                     }
                 ],
-                "@typescript-eslint/naming-convention": "off",
-                "@typescript-eslint/require-await": "off",
-                "no-empty-function": "off",
-                "@typescript-eslint/no-empty-function": ["error",{
-                    "allow": ["constructors"]
-                }],
-                "@typescript-eslint/await-thenable": "off",
+                "@typescript-eslint/naming-convention": "error",
+                "@typescript-eslint/require-await": "error",
+                "no-empty-function": "error",
+                "@typescript-eslint/no-empty-function": [
+                    "error",
+                    {
+                        "allow": ["constructors"]
+                    }
+                ],
+                "@typescript-eslint/await-thenable": "error",
                 "@typescript-eslint/no-unused-vars": "error",
                 "@typescript-eslint/no-unused-expressions": [
                     "error",
@@ -92,13 +95,13 @@
                     }
                 ],
                 "@typescript-eslint/explicit-member-accessibility": [
-                    "off",
+                    "error",
                     {
                         "accessibility": "explicit"
                     }
                 ],
                 "@typescript-eslint/no-inferrable-types": [
-                    "off",
+                    "error",
                     {
                         "ignoreParameters": true
                     }
@@ -168,4 +171,4 @@
             "extends": ["plugin:@angular-eslint/template/recommended", "plugin:@nrwl/nx/angular-template"]
         }
     ]
-  }
+}
