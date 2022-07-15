@@ -2,7 +2,9 @@
     "version": 2,
     "projects": {
         "example-app": "apps/example-app",
-        "example-app-e2e": "apps/example-app-e2e"
+        "example-app-e2e": "apps/example-app-e2e",
+        "example-app-vue": "apps/example-app-vue",
+        "example-app-vue-e2e": "apps/example-app-vue-e2e"
     },
     "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }
