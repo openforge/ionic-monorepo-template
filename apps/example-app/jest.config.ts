@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     displayName: 'example-app',
 
     setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
@@ -14,5 +14,5 @@ module.exports = {
     },
     transformIgnorePatterns: ['node_modules/(?!.*\\.mjs$)'],
     snapshotSerializers: ['jest-preset-angular/build/serializers/no-ng-attributes', 'jest-preset-angular/build/serializers/ng-snapshot', 'jest-preset-angular/build/serializers/html-comment'],
-    preset: '../../jest.preset.ts',
+    preset: '../../jest.preset.js',
 };

@@ -1,6 +1,6 @@
 {
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
     "projectType": "application",
-    "root": "apps/example-app",
     "sourceRoot": "apps/example-app/src",
     "prefix": "openforge-ionic-monorepo-example",
     "targets": {
