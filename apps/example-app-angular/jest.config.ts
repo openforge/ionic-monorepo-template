@@ -1,5 +1,5 @@
 export default {
-    displayName: 'example-app',
+    displayName: 'example-app-angular',
 
     setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
     globals: {
@@ -8,7 +8,7 @@ export default {
             stringifyContentPathRegex: '\\.(html|svg)$',
         },
     },
-    coverageDirectory: '../../coverage/apps/example-app',
+    coverageDirectory: '../../coverage/apps/example-app-angular',
     transform: {
         '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
     },
