@@ -1,17 +1,17 @@
 {
     "$schema": "../../node_modules/nx/schemas/project-schema.json",
-    "sourceRoot": "apps/example-app-e2e/src",
+    "sourceRoot": "apps/example-app-vue-e2e/src",
     "projectType": "application",
     "targets": {
         "e2e": {
             "executor": "@nrwl/cypress:cypress",
             "options": {
-                "cypressConfig": "apps/example-app-e2e/cypress.json",
-                "devServerTarget": "example-app-angular:serve:development"
+                "cypressConfig": "apps/example-app-vue-e2e/cypress.json",
+                "devServerTarget": "example-app-vue:serve"
             },
             "configurations": {
                 "production": {
-                    "devServerTarget": "example-app-angular:serve:production"
+                    "devServerTarget": "example-app-vue:serve:production"
                 }
             }
         },
@@ -19,10 +19,10 @@
             "executor": "@nrwl/linter:eslint",
             "outputs": ["{options.outputFile}"],
             "options": {
-                "lintFilePatterns": ["apps/example-app-e2e/**/*.{js,ts}"]
+                "lintFilePatterns": ["apps/example-app-vue-e2e/**/*.{js,ts}"]
             }
         }
     },
     "tags": [],
-    "implicitDependencies": ["example-app-angular"]
+    "implicitDependencies": ["example-app-vue"]
 }
