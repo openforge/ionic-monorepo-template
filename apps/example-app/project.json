@@ -1,6 +1,7 @@
 {
+    "name": "example-app",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
     "projectType": "application",
-    "root": "apps/example-app",
     "sourceRoot": "apps/example-app/src",
     "prefix": "openforge-ionic-monorepo-example",
     "targets": {
@@ -77,9 +78,9 @@
         },
         "test": {
             "executor": "@nrwl/jest:jest",
-            "outputs": ["coverage/apps/example-app"],
+            "outputs": ["{workspaceRoot}/coverage/apps/example-app"],
             "options": {
-                "jestConfig": "apps/example-app/jest.config.js",
+                "jestConfig": "apps/example-app/jest.config.ts",
                 "passWithNoTests": true
             }
         },
