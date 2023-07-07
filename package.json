@@ -63,7 +63,7 @@
         "prettier-eslint": "^8.8.2",
         "react-test-renderer": "18.2.0",
         "sass": "^1.55.0",
-        "stylelint": "^14.0.0",
+        "stylelint": "^15.10.1",
         "stylelint-config-prettier": "^8.0.0",
         "stylelint-config-standard": "^24.0.0",
         "stylelint-config-standard-scss": "^3.0.0",
