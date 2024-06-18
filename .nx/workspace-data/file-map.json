@@ -1,0 +1,620 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "@angular/animations": "18.0.3",
+    "@angular/common": "18.0.3",
+    "@angular/compiler": "18.0.3",
+    "@angular/core": "18.0.3",
+    "@angular/forms": "18.0.3",
+    "@angular/platform-browser": "18.0.3",
+    "@angular/platform-browser-dynamic": "18.0.3",
+    "@angular/router": "18.0.3",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/haptics": "^6.0.0",
+    "@capacitor/keyboard": "^6.0.1",
+    "@capacitor/status-bar": "^6.0.0",
+    "@ionic/angular": "^8.2.2",
+    "@schematics/angular": "18.0.4",
+    "@types/cypress": "^1.1.3",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vitest/ui": "^1.6.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsdoc": "^48.2.12",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "eslint-plugin-vue": "^9.26.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "^6.23.1",
+    "rxjs": "7.8.1",
+    "ts-lib": "^0.0.5",
+    "tslib": "^2.6.3",
+    "vitest": "^1.6.0",
+    "vue-tsc": "^2.0.21",
+    "zone.js": "0.14.7",
+    "@angular-devkit/build-angular": "18.0.4",
+    "@angular-devkit/core": "18.0.4",
+    "@angular-devkit/schematics": "18.0.4",
+    "@angular-eslint/eslint-plugin": "18.0.1",
+    "@angular-eslint/eslint-plugin-template": "18.0.1",
+    "@angular-eslint/template-parser": "18.0.1",
+    "@angular/compiler-cli": "18.0.3",
+    "@angular/language-service": "18.0.3",
+    "@capacitor/cli": "^6.1.0",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@nx/angular": "19.3.0",
+    "@nx/cypress": "19.3.0",
+    "@nx/eslint": "19.3.0",
+    "@nx/eslint-plugin": "^19.3.0",
+    "@nx/jest": "19.3.0",
+    "@nx/react": "19.3.0",
+    "@nx/vite": "19.3.0",
+    "@nx/vue": "19.3.0",
+    "@nx/workspace": "19.3.0",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.4",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@types/react-router-dom": "5.3.3",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
+    "@typescript-eslint/utils": "^8.0.0-alpha.28",
+    "@vitejs/plugin-react": "4.3.1",
+    "@vitest/coverage-v8": "^1.6.0",
+    "cypress": "^13.11.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-cypress": "^3.3.0",
+    "eslint-plugin-html": "^8.1.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jest-preset-angular": "14.1.0",
+    "jsdom": "^24.1.0",
+    "nx": "^19.3.0",
+    "nx-stylelint": "^17.1.5",
+    "prettier": "^3.3.2",
+    "prettier-eslint": "^16.3.0",
+    "sass": "^1.77.6",
+    "stylelint": "^16.6.1",
+    "stylelint-config-prettier": "^8.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "ts-jest": "29.1.5",
+    "ts-node": "^10.9.2",
+    "typescript": "5.4.5",
+    "vite": "^5.3.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-tsconfig-paths": "4.3.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "15553496959705771468"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "1401372934515399464"
+      },
+      {
+        "file": "apps/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "16309617398543905968"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "16390282593243958225"
+      },
+      {
+        "file": "libs/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".lintstagedrc",
+        "hash": "1063193021670399906"
+      },
+      {
+        "file": ".prettierrc.json",
+        "hash": "149444767181236645"
+      },
+      {
+        "file": ".stylelintrc.json",
+        "hash": "2266951587548430363"
+      },
+      {
+        "file": ".husky/pre-push",
+        "hash": "2747788963738932550"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13294248101218563422"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3652618255743436127"
+      },
+      {
+        "file": ".github/workflows/codeql-analysis.yml",
+        "hash": "618854555626125049"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "409396958200320491"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "6989652524674965925"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "16427209258829211143"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15286285190851763978"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13967535804319470831"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18083146254186059871"
+      },
+      {
+        "file": "pull_request_template.md",
+        "hash": "15034318482760000911"
+      },
+      {
+        "file": "nx.json",
+        "hash": "14452524902517137228"
+      },
+      {
+        "file": "package.json",
+        "hash": "15221060284531202067"
+      },
+      {
+        "file": "README.md",
+        "hash": "4140722243099722343"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "113529236189617652"
+      }
+    ],
+    "projectFileMap": {
+      "example-app": [
+        {
+          "file": "apps/example-app/.eslintrc.json",
+          "hash": "3973578362233462440"
+        },
+        {
+          "file": "apps/example-app/.stylelintrc.json",
+          "hash": "3999711824073606296"
+        },
+        {
+          "file": "apps/example-app/capacitor.config.json",
+          "hash": "1041637634904442664"
+        },
+        {
+          "file": "apps/example-app/ionic.config.json",
+          "hash": "2587535393942297676"
+        },
+        {
+          "file": "apps/example-app/jest.config.ts",
+          "hash": "3441277105013353888"
+        },
+        {
+          "file": "apps/example-app/project.json",
+          "hash": "7037629053277668156"
+        },
+        {
+          "file": "apps/example-app/src/app/app-routing.module.ts",
+          "hash": "1101828696082837228",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/app.component.html",
+          "hash": "588426949079098932"
+        },
+        {
+          "file": "apps/example-app/src/app/app.component.scss",
+          "hash": "390862123783980043"
+        },
+        {
+          "file": "apps/example-app/src/app/app.component.spec.ts",
+          "hash": "13049132583370440427",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/app.component.ts",
+          "hash": "10730643691197221666",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/app.module.ts",
+          "hash": "1716285373054388756",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/router",
+            "npm:@ionic/angular"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/home/home-routing.module.ts",
+          "hash": "2383211687319046229",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/home/home.module.ts",
+          "hash": "7211011639440096984",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@ionic/angular"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/home/home.page.html",
+          "hash": "1277357984327478216"
+        },
+        {
+          "file": "apps/example-app/src/app/home/home.page.scss",
+          "hash": "767930888542886192"
+        },
+        {
+          "file": "apps/example-app/src/app/home/home.page.spec.ts",
+          "hash": "9627172350174922025",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ionic/angular"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/app/home/home.page.ts",
+          "hash": "997251925416023768",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/assets/icon/favicon.png",
+          "hash": "17482944836898362639"
+        },
+        {
+          "file": "apps/example-app/src/assets/shapes.svg",
+          "hash": "4708889011185296100"
+        },
+        {
+          "file": "apps/example-app/src/environments/environment.prod.ts",
+          "hash": "13704300067714237052"
+        },
+        {
+          "file": "apps/example-app/src/environments/environment.ts",
+          "hash": "8760692723358491555"
+        },
+        {
+          "file": "apps/example-app/src/global.scss",
+          "hash": "571879085447405395"
+        },
+        {
+          "file": "apps/example-app/src/index.html",
+          "hash": "9166601021194100871"
+        },
+        {
+          "file": "apps/example-app/src/main.ts",
+          "hash": "4715187186890045294",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/polyfills.ts",
+          "hash": "12756956214241612976",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/test.ts",
+          "hash": "5350592218418628112",
+          "deps": [
+            "npm:zone.js",
+            "npm:@angular/core",
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "apps/example-app/src/theme/variables.scss",
+          "hash": "9215245183085033223"
+        },
+        {
+          "file": "apps/example-app/src/zone-flags.ts",
+          "hash": "15590614204260785751"
+        },
+        {
+          "file": "apps/example-app/tsconfig.app.json",
+          "hash": "7513797455520773769"
+        },
+        {
+          "file": "apps/example-app/tsconfig.editor.json",
+          "hash": "5219024009160415359"
+        },
+        {
+          "file": "apps/example-app/tsconfig.json",
+          "hash": "4367679365789318391"
+        },
+        {
+          "file": "apps/example-app/tsconfig.spec.json",
+          "hash": "2030238433236466940"
+        }
+      ],
+      "example-app-react": [
+        {
+          "file": "apps/example-app-react/.eslintrc.json",
+          "hash": "17173819443619805368"
+        },
+        {
+          "file": "apps/example-app-react/index.html",
+          "hash": "2565170187726736861"
+        },
+        {
+          "file": "apps/example-app-react/project.json",
+          "hash": "16500017786568901216"
+        },
+        {
+          "file": "apps/example-app-react/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/example-app-react/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/example-app-react/src/app/app.spec.tsx",
+          "hash": "13533311017746774619",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/example-app-react/src/app/app.tsx",
+          "hash": "1548449066758943487",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/example-app-react/src/app/nx-welcome.tsx",
+          "hash": "582785906588669230"
+        },
+        {
+          "file": "apps/example-app-react/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/example-app-react/src/main.tsx",
+          "hash": "9260207944622373201",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/example-app-react/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "apps/example-app-react/tsconfig.app.json",
+          "hash": "17087674334528026338"
+        },
+        {
+          "file": "apps/example-app-react/tsconfig.json",
+          "hash": "15740810041531620320"
+        },
+        {
+          "file": "apps/example-app-react/tsconfig.spec.json",
+          "hash": "2082797298343851081"
+        },
+        {
+          "file": "apps/example-app-react/vite.config.ts",
+          "hash": "394557487020732212",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite"
+          ]
+        }
+      ],
+      "example-app-react-e2e": [
+        {
+          "file": "apps/example-app-react-e2e/.eslintrc.json",
+          "hash": "11265286845486883578"
+        },
+        {
+          "file": "apps/example-app-react-e2e/cypress.json",
+          "hash": "14582872672328850675"
+        },
+        {
+          "file": "apps/example-app-react-e2e/project.json",
+          "hash": "2890374941924223113"
+        },
+        {
+          "file": "apps/example-app-react-e2e/src/fixtures/example.json",
+          "hash": "2484629326365720286"
+        },
+        {
+          "file": "apps/example-app-react-e2e/src/integration/app.spec.ts",
+          "hash": "14606172219053470050"
+        },
+        {
+          "file": "apps/example-app-react-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/example-app-react-e2e/src/support/commands.ts",
+          "hash": "6886839356428899889"
+        },
+        {
+          "file": "apps/example-app-react-e2e/src/support/index.ts",
+          "hash": "9968213533773113880"
+        },
+        {
+          "file": "apps/example-app-react-e2e/tsconfig.json",
+          "hash": "5600469527484432914"
+        }
+      ],
+      "example-app-vue": [
+        {
+          "file": "apps/example-app-vue/.gitignore",
+          "hash": "13046175384202504187"
+        },
+        {
+          "file": "apps/example-app-vue/.vscode/extensions.json",
+          "hash": "4987258316065159537"
+        },
+        {
+          "file": "apps/example-app-vue/README.md",
+          "hash": "4021204212156631199"
+        },
+        {
+          "file": "apps/example-app-vue/index.html",
+          "hash": "14001646145817081453"
+        },
+        {
+          "file": "apps/example-app-vue/project.json",
+          "hash": "16694995449277623717"
+        },
+        {
+          "file": "apps/example-app-vue/public/vite.svg",
+          "hash": "16046085400642193116"
+        },
+        {
+          "file": "apps/example-app-vue/src/App.vue",
+          "hash": "14398644186745834698"
+        },
+        {
+          "file": "apps/example-app-vue/src/assets/vue.svg",
+          "hash": "6215844894841429247"
+        },
+        {
+          "file": "apps/example-app-vue/src/components/HelloWorld.vue",
+          "hash": "16320507641295670524",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/example-app-vue/src/main.ts",
+          "hash": "10712514565753967223",
+          "deps": [
+            "npm:vue"
+          ]
+        },
+        {
+          "file": "apps/example-app-vue/src/style.css",
+          "hash": "3586918276767610229"
+        },
+        {
+          "file": "apps/example-app-vue/src/vite-env.d.ts",
+          "hash": "12946363841406869089"
+        },
+        {
+          "file": "apps/example-app-vue/tsconfig.app.json",
+          "hash": "10149815337496783647"
+        },
+        {
+          "file": "apps/example-app-vue/tsconfig.json",
+          "hash": "15055024107343308709"
+        },
+        {
+          "file": "apps/example-app-vue/vite.config.ts",
+          "hash": "814997244317590394",
+          "deps": [
+            "npm:@nx/vite",
+            "npm:@vitejs/plugin-vue",
+            "npm:vite"
+          ]
+        }
+      ],
+      "example-app-e2e": [
+        {
+          "file": "apps/example-app-e2e/.eslintrc.json",
+          "hash": "18299798962029841247"
+        },
+        {
+          "file": "apps/example-app-e2e/cypress.json",
+          "hash": "6729675372693525878"
+        },
+        {
+          "file": "apps/example-app-e2e/project.json",
+          "hash": "1171649395896867427"
+        },
+        {
+          "file": "apps/example-app-e2e/src/fixtures/example.json",
+          "hash": "2484629326365720286"
+        },
+        {
+          "file": "apps/example-app-e2e/src/integration/app.spec.ts",
+          "hash": "8595568843421031668"
+        },
+        {
+          "file": "apps/example-app-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/example-app-e2e/src/support/commands.ts",
+          "hash": "6886839356428899889"
+        },
+        {
+          "file": "apps/example-app-e2e/src/support/index.ts",
+          "hash": "3666078656922506009"
+        },
+        {
+          "file": "apps/example-app-e2e/tsconfig.json",
+          "hash": "7335634979815443139"
+        }
+      ]
+    }
+  }
+}

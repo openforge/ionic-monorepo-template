@@ -12,3 +12,6 @@
 CHANGELOG.md
 
 LICENSE.md
+
+/.nx/cache
+/.nx/workspace-data
